@@ -1,0 +1,300 @@
+@import url(reset.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css);
+header .nav{
+    position: fixed;
+    z-index: 4;
+    width: 100%;
+}
+nav img{
+    transform: translateX(100px);
+}
+nav form input{
+    padding-top: 20px;
+    padding-right: 300px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    transform: translateX(120px);
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 9px 31px -15px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 9px 31px -15px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 9px 31px -15px rgba(0,0,0,0.75);
+border: 1px solid #fff;
+}
+nav button{
+    width: 60px;
+    height: 60px;
+    background-color: #3449CA;
+    border: 1px solid #3449CA;
+    color: #fff;
+    transform: translateX(150px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+nav .col-md-3{
+    display: flex;
+    transform: translateX(170px);
+}
+nav .account{
+    display: flex;
+    margin-right: 10px;
+}
+nav .account a{
+    margin-left: 10px;
+}
+nav .cart{
+    display: flex;
+}
+nav .cart a{
+    margin-left: 5px;
+}
+.card .sofa{
+    display: flex;
+    margin-bottom: 10px;
+}
+.card .sofa a{
+    margin-left: 15px;
+}
+.card .sofa i{
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.card .electronic{
+    display: flex;
+    margin-bottom: 10px;
+}
+.card .electronic a{
+    margin-left: 15px;
+}
+.card .electronic i{
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.card .fashion{
+    display: flex;
+    margin-bottom: 10px;
+}
+.card .fashion a{
+    margin-left: 15px;
+}
+.card .fashion i{
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.card .jewellery{
+    display: flex;
+    margin-bottom: 10px;
+}
+.card .jewellery a{
+    margin-left: 15px;
+}
+.card .jewellery i{
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.card .basketball{
+    display: flex;
+    margin-bottom: 10px;
+}
+.card .basketball a{
+    margin-left: 15px;
+}
+.card .basketball i{
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.card .stroller{
+    display: flex;
+    margin-bottom: 10px;
+}
+.card .stroller a{
+    margin-left: 15px;
+}
+.card .stroller i{
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.card .capsule{
+    display: flex;
+    margin-bottom: 10px;
+}
+.card .capsule a{
+    margin-left: 15px;
+}
+.card .capsule i{
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.card .toy{
+    display: flex;
+    margin-bottom: 10px;
+}
+.card .toy a{
+    margin-left: 15px;
+}
+.card .toy i{
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.card .car{
+    display: flex;
+    margin-bottom: 10px;
+}
+.card .car a{
+    margin-left: 15px;
+}
+.card .car i{
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.card .art{
+    display: flex;
+    margin-bottom: 10px;
+}
+.card .art a{
+    margin-left: 15px;
+}
+.card .art i{
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.card .home{
+    display: flex;
+    margin-bottom: 10px;
+}
+.card .home a{
+    margin-left: 15px;
+}
+.card .home i{
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.carousel {
+    width: 50%;
+    transform: translateX(550px);
+}
+.carousel .carousel-item {
+    position: relative;
+}
+.carousel .carousel-item .carousel-text {
+    position: absolute;
+    left: 15%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20%;
+}
+.carousel .carousel-item .carousel-text h1 {
+    font-weight: 900;
+}
+.carousel .carousel-item .carousel-text button {
+    border: none;
+    font-size: 13px;
+    font-weight: 900;
+    padding: 10px 20px;
+}
+.carousel .carousel-item .first {
+    color: white;
+}
+.carousel .carousel-item .first button {
+    color: var(--body-color-red);
+    background-color: white;
+}
+.carousel .carousel-item .second {
+    color: #424C5B;
+}
+.carousel .carousel-item .second button {
+    color: white;
+    background-color: #424C5B;
+}
+
+.carousel .carousel-item .third {
+    color: #787673;
+}
+
+.carousel .carousel-item .third button {
+    color: white;
+    background-color: #787673;
+}
+.category{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    transform: translateX(500px);
+}
+.category .category1 ul{
+    display: flex;
+}
+.category .category1 ul li a{
+    display: flex;
+    justify-content: space-between;
+}
+.deals .container{
+    display: flex;
+    justify-content: space-between;
+}
+.deals .container h5{
+    font-size: 30px;
+}
+.img{
+   display: flex;
+}
+.img img{
+    width: 12rem;
+}
+.img2{
+    display: flex;
+}
+.img2 img{
+    width: 11.8rem; 
+}
+.img-text{
+    display: flex;
+    justify-content: space-around;
+}
+.icon{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+footer .enter{
+    margin-left: 200px;
+}
+footer .enter form input{
+    padding-top: 20px;
+    padding-right: 150px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 9px 31px -15px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 9px 31px -15px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 9px 31px -15px rgba(0,0,0,0.75);
+border: 1px solid #fff;
+}
+footer button{
+    padding: 20px 30px 20px 30px;
+    background-color: #3449CA;
+    border: 1px solid #3449CA;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+}
+footer .subscribe{
+    display: flex;
+}
+body {
+    background-color: white;
+    color: black;
+  }
+  
+  .dark-mode {
+    background-color: black;
+    color: white;
+  }
+ a {
+    color: inherit;
+  }
